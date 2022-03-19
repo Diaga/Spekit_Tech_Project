@@ -10,7 +10,7 @@ services:
       sh -c "python manage.py wait_for_db &&
              python manage.py test --noinput"
     env_file:
-      - .env
+      - .env.test
     depends_on:
       - postgres
 
@@ -22,7 +22,7 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
     env_file:
-      - .env
+      - .env.test
 
 volumes:
   db_data:
