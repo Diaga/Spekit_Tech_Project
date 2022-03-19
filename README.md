@@ -56,6 +56,18 @@ $ docker compose -f docker-compose.test.yaml up
 $ docker compose up
 ```
 
+#### Migration
+Run migrations using the following command if not done already:
+```shell
+$ python manage.py migrate
+```
+
+#### Seeding
+In case sample data is required, it can be seeded through the following command:
+```shell
+$ python manage.py seed v1
+```
+
 ## Contributing
 
 Please read [CONTRIBUTING](CONTRIBUTING.md) to learn how to contribute to the repository.
