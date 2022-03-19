@@ -24,9 +24,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          cd src
-          python manage.py test
-          cd ..
+          docker-compose -f docker-compose.test.yaml up --exit-from-code spekit
 
       - name: Run Lint
         run: |
