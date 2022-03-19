@@ -56,6 +56,7 @@ $ docker compose -f docker-compose.test.yaml up
 $ docker compose up
 ```
 
+### Optional Steps
 #### Migration
 Run migrations using the following command if not done already:
 ```shell
