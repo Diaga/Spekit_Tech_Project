@@ -1,0 +1,15 @@
+api.spekit.ml {
+    reverse_proxy http://spekit:8000
+
+    tls {
+        on_demand
+    }
+}
+
+api.spekit.tk {
+    reverse_proxy http://spekit:8000
+
+    tls {
+        on_demand
+    }
+}
