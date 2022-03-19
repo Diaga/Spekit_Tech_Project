@@ -1,4 +1,4 @@
-from rest_framework.serializers import ModelSerializer, ManyRelatedField
+from rest_framework.serializers import ModelSerializer
 from . import models
 
 
