@@ -1,0 +1,10 @@
+# Python environment
+venv/
+__pycache__
+
+# System Specific files
+.DS_Store
+.idea
+
+# Environment Variable Config file
+*.env
