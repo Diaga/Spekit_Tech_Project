@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          docker-compose -f docker-compose.test.yaml up --exit-from-code spekit
+          docker-compose -f docker-compose.test.yaml up --exit-code-from spekit
 
       - name: Run Lint
         run: |
