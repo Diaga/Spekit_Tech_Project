@@ -107,16 +107,6 @@
 - **URL**: v1/document/<:id>/
 - **METHOD**: DELETE
 
-#### Response
-
-```json
-{
-  "id": "<:id>",
-  "title": "Spekit Help Document",
-  "content": "This is new content for XX",
-  "folder": "<uuid>"
-}
-```
 
 ## Folder
 
@@ -209,20 +199,6 @@
 }
 ```
 
-### Delete folder
-
-- **URL**: v1/folder/<:id>/
-- **METHOD**: DELETE
-
-#### Response
-
-```json
-{
-  "id": "<:id>",
-  "name": "Help Folder",
-  "folder": "<uuid>"
-}
-```
 
 ## Topic
 
@@ -311,15 +287,6 @@
 - **URL**: v1/topic/<:id>/
 - **METHOD**: DELETE
 
-#### Response
-
-```json
-{
-  "id": "<:id>",
-  "short_descriptor": "new support",
-  "long_descriptor": "support for developers"
-}
-```
 
 ## FolderTopic
 
@@ -352,15 +319,6 @@
 - **URL**: v1/m2m/folder/topic/<:id>
 - **METHOD**: DELETE
 
-#### Response
-
-```json
-{
-  "id": "<:id>",
-  "folder": "<uuid>",
-  "topic": "<uuid>"
-}
-```
 
 ## DocumentTopic
 
@@ -392,14 +350,4 @@
 
 - **URL**: v1/m2m/document/topic/<:id>
 - **METHOD**: DELETE
-
-#### Response
-
-```json
-{
-  "id": "<:id>",
-  "document": "<uuid>",
-  "topic": "<uuid>"
-}
-```
 
