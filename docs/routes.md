@@ -39,6 +39,15 @@
 - **URL**: v1/document/
 - **METHOD**: GET
 - **FILTER**: Yes
+    - Following filters are available:
+        - **title__iexact**: Case insensitive exact filter on title field.
+        - **title__icontains**: Case insensitive containment filter on title field.
+        - **folder__name__iexact**: Case insensitive containment filter on folder name.
+        - **folder__name__icontains**: Case insensitive containment filter on folder name.
+        - **topics__short__iexact**: Case insensitive containment filter on topics short descriptor.
+        - **topics__short__name__icontains**: Case insensitive containment filter on topics short descriptor.
+        - **topics__long__iexact**: Case insensitive containment filter on topics long descriptor.
+        - **topics__long__icontains**: Case insensitive containment filter on topics long descriptor.
 
 #### Response
 
@@ -140,6 +149,15 @@
 - **URL**: v1/folder/
 - **METHOD**: GET
 - **FILTER**: Yes
+    - Following filters are available:
+        - **name__iexact**: Case insensitive exact filter on name field.
+        - **name__icontains**: Case insensitive containment filter on name field.
+        - **folder__name__iexact**: Case insensitive containment filter on folder name.
+        - **folder__name__icontains**: Case insensitive containment filter on folder name.
+        - **topics__short__iexact**: Case insensitive containment filter on topics short descriptor.
+        - **topics__short__name__icontains**: Case insensitive containment filter on topics short descriptor.
+        - **topics__long__iexact**: Case insensitive containment filter on topics long descriptor.
+        - **topics__long__icontains**: Case insensitive containment filter on topics long descriptor.
 
 #### Response
 
