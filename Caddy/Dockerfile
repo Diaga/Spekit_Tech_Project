@@ -1,2 +1,3 @@
 FROM caddy:2.4.3
-COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+
+COPY Caddyfile /etc/caddy/Caddyfile
